@@ -11,7 +11,7 @@ interface Bird {
 }
 class Eagle implements Animal, Bird {
 	public void eat() {
-		System.out.println("Eats reptiles and amphibians.");
+		System.out.println("Eats and amphibians.");
 	}
 	public void sound() {
 		System.out.println("Has a high-pitched whistling sound.");
